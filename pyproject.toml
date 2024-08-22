@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sumfun"
+version = "0.1.0"
+description = "Simple math app for Dania and Yusuf"
+authors = ["Danial Azam <dazam92@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "sumfun" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+streamlit = "^1.37.0"
+streamlit-extras = "^0.4.3"
+pandas = "^2.2.2"
+watchdog = "^4.0.1"
+sympy = "^1.13.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
